@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="server">
+    <output-path>$PROJECT_DIR$/out/artifacts/server</output-path>
+    <root id="archive" name="TheJavawockeez.jar">
+      <element id="module-output" name="TheJavawockeez" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/org.json-chargebee-1.0.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/words" />
+    </root>
+  </artifact>
+</component>
